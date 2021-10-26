@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* navbar */
+
+nav {
+    height: 79px;
+    background-color: #ECEDED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw 0 5vw;
+}
+
+nav a {
+    width: 330px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 22.6px 11.8px;
+    color: #78909c;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+nav li a:hover {
+    color: #7EAEF3;
+    transition:.4s ease-in;
+}
+
+.page-logo {
+    height: 70.99px;
+    width: 159.38px;
+}
+
+
+/* banner - page 1 */
+
+.banner-container {
+    height: 36rem;
+    background-color: #324A7F;
+    padding: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-text, .banner-image {
+    height: 100%;
+    width: 40%;
+}
+
+.banner-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-container .banner-text h3 {
+    color: white;
+    letter-spacing: -4px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.banner-container .banner-text p {
+    color: #8f98aa;
+    margin: 1rem 0 1rem 0;
+}
+
+.banner-container .banner-text .intuitive-experiences {
+    color: #FBC02D;
+}
+
+.banner-container .banner-text button {
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 12rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    color: white;
+    background: linear-gradient(0.36turn, #ff6f00, #ffc107);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 5px #1a237e;
+}
+
+
+/* meet team - page 2 */
+.meet-team-container {
+    height: 25rem;
+    padding: 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.meet-team-text-container, .meet-team-image-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meet-team-text-container h3 {
+    font-size: 2.5rem;
+}
+
+.meet-team-text-container p {
+    font-size: .8rem;
+    color: rgb(102, 102, 102);
+    margin-top: .8rem;
+}
+
+.meet-team-member {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.meet-team-member img {
+    height: 90%;
+    border-radius: 1.2rem;
+    margin-right: 2rem;
+}
+
+.meet-team-text-button {
+    height: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 10rem;
+    margin-left: 2rem;
+}
+
+.meet-team-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* our services section - page 3 */
+ .our-services-container {
+    height: 40rem;
+    background-color: #E5E8E9;
+    padding: 5vh 8vw;
+}
+
+.our-services-container h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+hr {
+    width: 3vw;
+    height: 2px;
+    background-color: #FBB522;
+    outline: none;
+    border: none;
+}
+
+.our-services-content {
+    display: flex;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 0px #b2babd;
+    margin-top: 3rem;
+}
+
+.our-services-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 100%;
+    width: 20%;
+    background-color: #1F436F;
+    padding: 2vh 2vw;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: -1rem;
+}
+
+.our-services-left-content button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.our-services-left-content button:hover {
+    color: #659fe6;
+    transition: .2s ease-in;
+}
+
+.our-services-right-content {
+    padding: 5vh 3vw;
+    height: 100%;
+    width: 80%;
+}
+
+.our-services-right-content p {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    color: rgb(155, 155, 155);
+
+} 
+
+.our-services-right-content .our-services-right-content-links {
+    margin-top: 1rem;
+}
+
+.our-services-right-content-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    color: #000;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.our-services-right-content-links li a {
+    color: #000;
+    font-weight: 600;
+}
+
+.our-services-learn-more {
+    height: 2rem;
+    color: #45b4fd;
+    text-decoration: none;
+    padding: 2rem;
+    margin-top: 2rem;
+    float: right;
+}
+
+
+/* solutions we deliver - page 4 */
+.solutions-deliver-container {
+    height: 22rem;
+    background-color: #1F436F;
+    padding: 5vh 8vw;
+}
+
+.solutions-deliver-container  h3 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    font-size: 1rem;
+    word-spacing: 4px;
+}
+
+.solutions-deliver-container p {
+    color: lightgrey;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: .9rem;
+}
+
+.solutions-deliver-content-buttons {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 2.5fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+}
+
+.solutions-deliver-content-buttons button {
+    height: 5rem;
+    font-weight: 600;
+}
+
+
+/* ecosystem - page 5 */
+.ecosystem-container {
+    height: 25rem;
+    background-image: linear-gradient(180deg, #E7E9EA,#D8DEE1 );
+    padding: 5vh 8vw;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.ecosystem-content-container {
+    height: 100%;
+    display: flex;
+    background-color: #eeeeee;
+}
+
+.ecosystem-left-content-container {
+    width: 50%;
+    height: 100%;
+    padding: 0 3vw 0 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ecosystem-left-content-container h3 {
+    margin-top: 3vh;
+    font-size: 1.5rem;
+}
+
+.ecosystem-left-content-container p {
+    margin: 5vh 0 2vh 0;
+    font-size: .9rem;
+}
+
+.ecosystem-left-content-container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2vh 2vw;
+    color: #2196f3;
+
+}
+
+.ecosystem-left-content-links ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ecosystem-left-content-links ul li {
+    margin: 1rem;
+}
+
+.ecosystem-right-content-container {
+    width: 50%;
+    height: 100%;
+}
+
+.ecosystem-right-content-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ecosystem-right-content-container img {
+    transform: translate(2vw,-3vh);
+    box-shadow: 0px 0px 6px 0px #cfd8dc;;
+}
+
+
+/* contact us - page 6 */
+.contact-us-container {
+    height: 22rem;
+    background-color: #324A7F;
+    color: #fff;
+    display: flex;
+}
+
+.contact-us-left-content {
+    width: 45%;
+}
+.contact-us-right-content {
+    width: 55%;
+}
+.contact-us-right-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-us-left-content {
+    padding: 5vh 5vw;
+    margin-left: 5vw;
+}
+
+.contact-us-container .contact-us-left-content p {
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+.contact-us-container .contact-us-left-content p span, .contact-us-mail-div span {
+    color: #50E0CC;
+}
+
+.contact-us-mail-div {
+    margin-top: 5vh;
+}
+
+.contact-us-mail-div h4 {
+    font-size: .8rem;
+}
+
+.contact-us-mail-div button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #50e0cc;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 5px;
+    padding: 2vh 2vw;
+    color: #324a7f;
+}
+
+
+/* brands - page 7 */
+
+.brands-container {
+    height: 12rem;
+    background-color: #D7DDE0;
+    border-left: 5px solid grey;
+    padding: 5vh 10vw;
+    display: flex;
+}
+
+.brands-left-content, .brands-right-content {
+    width: 50%;
+}
+
+.brands-left-content {
+    display: flex;
+    align-items: center;
+    color: #424A7F;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.brands-right-content-div-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    grid-column-gap: 1rem;
+}
+
+.brands-right-content-div-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+.brands-right-content img {
+    height: 70%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* page 8 */
+
+
+/* careers - page 9 */
+.careers-container {
+    height: 17rem;
+    background-image: linear-gradient(90deg,  #FFBD07,#FF7701);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 600;
+}
+
+.careers-container small {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.careers-container > * {
+    margin: .5rem;
+}
+
+.careers-container-buttons button {
+    padding: 1vh 3vw;
+    margin: 0vh 0.5vw;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 0.5vh;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.careers-container-buttons button:hover {
+    background-color: #F79F26;
+}
+
+
+/* contact details */
+.contact-details-container {
+    height: 10rem;
+    background-color: #132F4E;
+}
